@@ -1,6 +1,6 @@
 body {
 	display: flex;
-	align-items: center;
+	justify-content: center;
 	height: 100vh;
 	padding: 0px;
 	box-sizing: border-box;
@@ -9,7 +9,7 @@ body {
 
 .page-content {
 	/*flex-direction: column;*/
-	width: 400px;
+	width: 380px;
 	height: 932px;
 	background-color: #161618;
 }
