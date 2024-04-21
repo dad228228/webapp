@@ -7,10 +7,9 @@ body {
 
 .page-content {
 	/*flex-direction: column;*/
-	width: 430px;
+	width: 400px;
 	height: 932px;
 	background-color: #161618;
-	border-radius: 30px;
 }
 
 .header-content {
