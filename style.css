@@ -1,0 +1,359 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*box-sizing: border-box;*/
+}
+
+.page-content {
+	/*flex-direction: column;*/
+	width: 430px;
+	height: 932px;
+	background-color: #161618;
+	border-radius: 30px;
+}
+
+.header-content {
+	font-family: Onest;
+}
+
+.header-text1 {
+	font-family: Medium;
+	font-size: 27px;
+	color: #ebebeb;
+	margin-top: 75px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+}
+
+.header-text2 {
+	font-family: ExtraLight;
+	font-size: 27px;
+	color: #ebebeb;
+	margin-top: 0px;
+	margin-left: 115px;
+	margin-bottom: 0px;
+}
+
+
+.card-info-content {
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+
+.card-info {
+	width: 400px;
+	height: 130px;
+	border-radius: 20px;
+	background-color: #27272b;
+}
+
+.text {
+	font-size: 23px;
+	font-family: Light;
+	color: #ebebeb;
+	text-align: center;
+	margin-top: 7px;
+	margin-bottom: 0px;
+}
+
+.balance {
+	font-size: 30px;
+	font-family: Bold;
+	color: #d4d4d4;
+	text-align: center;
+	margin-top: 13px;
+	margin-bottom: 0px;
+}
+
+.number-card {
+	font-size: 23px;
+	font-family: Medium;
+	color: #d4d4d4;
+	text-align: end;
+	margin-top: 10px;
+	margin-right: 11px;
+	margin-bottom: 5px;
+}
+
+
+
+
+.services-section {
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+}
+
+.referral-system, .promo-codes {
+	width: 195px;
+	height: 135px;
+	border-radius: 20px;
+	background-color: #27272b;
+}
+
+.referral-system {
+	margin-right: 5px;
+}
+
+.promo-codes {
+	margin-left: 5px;
+}
+
+.referral-system-header, .promo-codes-header {
+	font-size: 18px;
+	font-family: SemiBold;
+	color: #ebebeb;
+	width: 150px;
+	margin-top: 9px;
+	margin-left: 9px;
+}
+
+.qwe {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.asd {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 56px;
+}
+
+.referral-counter {
+	font-size: 27px;
+	font-family: Medium;
+	color: #d4d4d4;
+	margin-top: 23px;
+	margin-left: 11px;
+	margin-bottom: 0px;
+}
+
+.ref-link-img img {
+	width: 38px;
+	height: 38px;
+	margin-right: 8px;
+	margin-top: 10px;
+}
+
+.promo-code-activation-img img {
+	width: 38px;
+	height: 38px;
+	margin-right: 10px;
+}
+
+
+
+
+.history-operations-section {
+	display: flex;
+	justify-content: center;
+}
+
+.history-operations-content {
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	height: 270px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	background-color: #27272b;
+	margin-top: 15px;
+}
+
+.history-operations-header {
+	font-size: 21px;
+	font-family: SemiBold;
+	color: #ebebeb;
+	width: 300px;
+	margin-top: 15px;
+	margin-left: 16px;
+	margin-bottom: 0px;
+}
+
+.history-operations-items {
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+	margin-top: 10px;
+	height: 218px;
+}
+
+.operation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 400px;
+	height: 50px;
+	/*margin-top: 31px;*/
+	/*background-color: grey;*/
+}
+
+.spisanie-img, .popolnenie-img {
+	width: 45px;
+	height: 45px;
+	margin-left: 5px;
+}
+
+.spisanie, .popolnenie {
+	font-size: 17px;
+	font-family: Medium;
+	color: #ebebeb;
+	margin-left: 10px;
+}
+
+.left-side {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: row;
+}
+
+.right-side {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-direction: column;
+	margin-right: 13px;
+}
+
+.amount-spisaniya {
+	font-size: 16px;
+	font-family: Regular;
+	color: #e51b1b;
+	/*margin-left: 215px;*/
+	margin: 0px;
+}
+
+.amount-popolneniya {
+	font-size: 16px;
+	font-family: Regular;
+	color: #27a12f;
+	/*margin-left: 215px;*/
+	margin: 0px;
+}
+
+.datetime {
+	font-size: 14px;
+	font-family: Regular;
+	color: #ebebeb;
+	margin: 0px;
+}
+
+
+
+
+.other-info-section {
+	display: flex;
+	justify-content: center;
+}
+
+.other-info-content {
+	display: flex;
+	flex-direction: column;
+	width: 430px;
+	height: 150px;
+	background-color: #27272b;
+	margin-top: 10px;
+}
+
+.other-info-header { /* title */
+	font-size: 19px;
+	font-family: SemiBold;
+	color: #ebebeb;
+	margin-top: 13px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.other-info-items {
+	display: flex;
+	overflow: auto;
+}
+
+.item {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	/*
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	*/
+	min-width: 230px;
+	height: 90px;
+	border-radius: 10px;
+	margin-left: 15px;
+}
+
+.item:last-child {
+	margin-right: 15px;
+}
+
+.text-item {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.title {
+	font-size: 14px;
+	font-family: Medium;
+	color: #ebebeb;
+	text-align: start;
+	max-width: 140px;
+	max-height: 54px;
+	margin-top: 0px;
+	margin-left: 9px;
+	margin-bottom: 0px;
+}
+
+.transition {
+	font-size: 12px;
+	font-family: Regular;
+	color: #ebebeb;
+	text-decoration: none;
+	max-width: 140px;
+	margin-top: 6px;
+	margin-left: 9px;
+}
+
+.img-item {
+	width: 50px;
+	height: 50px;
+	margin-left: 16px;
+}
+
+
+@font-face {
+	font-family: ExtraLight;
+	src: url(font/static/Onest-ExtraLight.ttf);
+}
+
+@font-face {
+	font-family: Light;
+	src: url(font/static/Onest-Light.ttf);
+}
+
+@font-face {
+	font-family: Regular;
+	src: url(font/static/Onest-Regular.ttf);
+}
+
+@font-face {
+	font-family: Medium;
+	src: url(font/static/Onest-Medium.ttf);
+}
+
+@font-face {
+	font-family: SemiBold;
+	src: url(font/static/Onest-SemiBold.ttf);
+}
+
+@font-face {
+	font-family: Bold;
+	src: url(font/static/Onest-Bold.ttf);
+}
