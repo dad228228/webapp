@@ -268,7 +268,7 @@ body {
 .other-info-content {
 	display: flex;
 	flex-direction: column;
-	width: 360px;
+	width: 420px;
 	height: 150px;
 	background-color: #27272b;
 	margin-top: 10px;
@@ -279,7 +279,7 @@ body {
 	font-family: SemiBold;
 	color: #ebebeb;
 	margin-top: 13px;
-	margin-left: 20px;
+	margin-left: 50px;
 	margin-bottom: 10px;
 }
 
@@ -287,10 +287,11 @@ body {
 	display: flex;
 	overflow-y: hidden;
 	overflow-x: auto;
+	margin-left: 30px;
 }
 
 .other-info-items:hover::-webkit-scrollbar {
-	display: inline;   
+	display: inline;
 }
 
 .item {
