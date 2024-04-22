@@ -1,13 +1,9 @@
-/*
 body {
 	display: flex;
 	justify-content: center;
 	height: 100vh;
-	padding: 0px;
-	box-sizing: border-box;
-	box-sizing: border-box;
+	background-color: #161618;
 }
-*/
 
 .page-content {
 	/*flex-direction: column;
@@ -18,23 +14,19 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	backgroung-color: #161618;
 }
 
 .header-content {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	margin-left: 50px;
+	align-items: flex-start;
 }
 
 .header-text1 {
 	font-family: Medium;
 	font-size: 27px;
 	color: #ebebeb;
-	margin-top: 75px;
-	margin-left: 20px;
-	margin-right: 220px;
+	padding-right: 150px;
 	margin-bottom: 0px;
 }
 
@@ -43,8 +35,7 @@ body {
 	font-size: 27px;
 	color: #ebebeb;
 	margin-top: 0px;
-	margin-left: 115px;
-	margin-right: 165px;
+	padding-left: 96px;
 	margin-bottom: 0px;
 }
 
@@ -52,7 +43,7 @@ body {
 .card-info-content {  /*card-info-section*/
 	display: flex;
 	justify-content: center;
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 .card-info { /*card-info-content*/
@@ -96,7 +87,7 @@ body {
 .services-section {
 	display: flex;
 	justify-content: center;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .referral-system, .promo-codes {  /*referral-system-content...*/
@@ -173,7 +164,7 @@ body {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	background-color: #27272b;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 .history-operations-header {
@@ -189,9 +180,29 @@ body {
 .history-operations-items {
 	display: flex;
 	flex-direction: column;
-	overflow: auto;
+	overflow-y: auto;
+  	overflow-x: hidden;
 	margin-top: 10px;
 	height: 218px;
+}
+
+::-webkit-scrollbar {
+	width: 4px;
+	height: 4px;
+	display: none;
+}
+
+.history-operations-items:hover::-webkit-scrollbar {
+	display: inline;   
+}
+
+::-webkit-scrollbar-thumb {
+    background: #706D6D;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-track-piece {
+	background: none;
 }
 
 .operation {
@@ -284,7 +295,12 @@ body {
 
 .other-info-items {
 	display: flex;
-	overflow: auto;
+	overflow-y: hidden;
+	overflow-x: auto;
+}
+
+.other-info-items:hover::-webkit-scrollbar {
+	display: inline;   
 }
 
 .item {
