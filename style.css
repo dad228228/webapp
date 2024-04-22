@@ -1,7 +1,6 @@
 body {
 	display: flex;
 	justify-content: center;
-	height: 100vh;
 	background-color: #161618;
 }
 
@@ -189,20 +188,11 @@ body {
 ::-webkit-scrollbar {
 	width: 4px;
 	height: 4px;
-	display: none;
-}
-
-.history-operations-items:hover::-webkit-scrollbar {
-	display: inline;   
 }
 
 ::-webkit-scrollbar-thumb {
     background: #706D6D;
     border-radius: 8px;
-}
-
-::-webkit-scrollbar-track-piece {
-	background: none;
 }
 
 .operation {
