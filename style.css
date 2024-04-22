@@ -18,6 +18,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	backgroung-color: #161618;
 }
 
 .header-content {
@@ -164,7 +165,7 @@ body {
 .history-operations-content {
 	display: flex;
 	flex-direction: column;
-	width: 400px;
+	width: 350px;
 	height: 270px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
@@ -263,7 +264,7 @@ body {
 .other-info-content {
 	display: flex;
 	flex-direction: column;
-	width: 400px;
+	width: 350px;
 	height: 150px;
 	background-color: #27272b;
 	margin-top: 10px;
