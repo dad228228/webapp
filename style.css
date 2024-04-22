@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 	flex-direction: column;
 	align-items: center;
 	overflow-x: hidden;
-	max-width: 395px;
+	max-width: 400px;
 }
 
 .header-content {
