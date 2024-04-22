@@ -13,7 +13,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 380px;
+	max-width: 385px;
 }
 
 .header-content {
@@ -269,7 +269,7 @@ body {
 .other-info-content {
 	display: flex;
 	flex-direction: column;
-	width: 390px;
+	width: 385px;
 	height: 150px;
 	background-color: #27272b;
 	margin-top: 10px;
