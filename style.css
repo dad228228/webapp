@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 395px;
+	max-width: 394px;
 }
 
 .header-content {
@@ -274,7 +274,7 @@ body::-webkit-scrollbar {
 .other-info-content {
 	display: flex;
 	flex-direction: column;
-	width: 395px;
+	width: 394px;
 	height: 150px;
 	background-color: #27272b;
 	margin-top: 10px;
