@@ -46,14 +46,14 @@ body {
 }
 
 
-.card-info-content {
+.card-info-content {  /*card-info-section*/
 	display: flex;
 	justify-content: center;
 	margin-top: 40px;
 }
 
-.card-info {
-	width: 400px;
+.card-info { /*card-info-content*/
+	width: 360px;
 	height: 130px;
 	border-radius: 20px;
 	background-color: #27272b;
@@ -96,8 +96,8 @@ body {
 	margin-top: 15px;
 }
 
-.referral-system, .promo-codes {
-	width: 195px;
+.referral-system, .promo-codes {  /*referral-system-content...*/
+	width: 175px;
 	height: 135px;
 	border-radius: 20px;
 	background-color: #27272b;
@@ -165,7 +165,7 @@ body {
 .history-operations-content {
 	display: flex;
 	flex-direction: column;
-	width: 350px;
+	width: 360px;
 	height: 270px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
@@ -264,7 +264,7 @@ body {
 .other-info-content {
 	display: flex;
 	flex-direction: column;
-	width: 350px;
+	width: 360px;
 	height: 150px;
 	background-color: #27272b;
 	margin-top: 10px;
