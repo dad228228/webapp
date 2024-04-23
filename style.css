@@ -52,7 +52,7 @@ body::-webkit-scrollbar {
 }
 
 .card-info { /*card-info-content*/
-	width: 360px;
+	width: 375px;
 	height: 130px;
 	border-radius: 20px;
 	background-color: #27272b;
@@ -96,8 +96,34 @@ body::-webkit-scrollbar {
 	margin-top: 10px;
 }
 
+.delimiter {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	z-index: -1;
+}
+
+.item1 {
+	width: 85px;
+	height: 20px;
+	background-color: #E51B1B;
+}
+
+.item2 {
+	width: 15px;
+	height: 94px;
+	background-color: #E51B1B;
+}
+
+.item3 {
+	width: 85px;
+	height: 21px;
+	background-color: #E51B1B;
+}
+
 .referral-system, .promo-codes {  /*referral-system-content...*/
-	width: 175px;
+	width: 180px;
 	height: 135px;
 	border-radius: 20px;
 	background-color: #27272b;
@@ -105,11 +131,12 @@ body::-webkit-scrollbar {
 }
 
 .referral-system {
-	margin-right: 5px;
+	margin-right: 15px;
+	/*margin-right: 5px;*/
 }
 
 .promo-codes {
-	margin-left: 5px;
+	/*margin-left: 10px;*/
 }
 
 .referral-system-header, .promo-codes-header {
@@ -142,20 +169,34 @@ body::-webkit-scrollbar {
 	margin-bottom: 0px;
 }
 
+.ref-link-img {
+	padding-top: 10px;
+	padding-right: 8px;
+}
+
 .ref-link-img img {
-	width: 38px;
-	height: 38px;
-	margin-right: 8px;
-	margin-top: 10px;
+	width: 35px;
+	height: 35px;
+}
+
+.ref-link-img:active {
+	border-radius: 4px;
+	background-color: #706D6D;
+}
+
+.promo-code-activation-img {
+	padding-right: 10px;
 }
 
 .promo-code-activation-img img {
 	width: 38px;
 	height: 38px;
-	margin-right: 10px;
 }
 
-
+.promo-code-activation-img::active {
+	border-radius: 8px;
+	background-color: #706D6D;
+}
 
 
 .history-operations-section {
@@ -166,7 +207,7 @@ body::-webkit-scrollbar {
 .history-operations-content {
 	display: flex;
 	flex-direction: column;
-	width: 360px;
+	width: 375px;
 	height: 270px;
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
@@ -176,7 +217,7 @@ body::-webkit-scrollbar {
 }
 
 .history-operations-header {
-	font-size: 21px;
+	font-size: 19px;
 	font-family: SemiBold;
 	color: #ebebeb;
 	width: 300px;
@@ -190,7 +231,7 @@ body::-webkit-scrollbar {
 	flex-direction: column;
 	overflow-y: auto;
   	overflow-x: hidden;
-	margin-top: 10px;
+	margin-top: 5px;
 	height: 218px;
 }
 
@@ -211,8 +252,17 @@ body::-webkit-scrollbar {
 	flex-direction: row;
 	width: 360px;
 	height: 50px;
+	background-image: linear-gradient(rgba(112, 109, 109, 0.1), rgba(112, 109, 109, 0.1));
+	background-position: 100% 50%;
+	background-repeat: no-repeat;
+	background-size: 0% 100%;
+  	transition: background-size .5s, color .5s;
 	/*margin-top: 31px;*/
 	/*background-color: grey;*/
+}
+
+.operation:active {
+	background-size: 100% 100%;
 }
 
 .spisanie-img, .popolnenie-img {
@@ -222,10 +272,10 @@ body::-webkit-scrollbar {
 }
 
 .spisanie, .popolnenie {
-	font-size: 17px;
+	font-size: 15px;
 	font-family: Medium;
 	color: #ebebeb;
-	margin-left: 10px;
+	margin-left: 8px;
 }
 
 .left-side {
@@ -244,7 +294,7 @@ body::-webkit-scrollbar {
 }
 
 .amount-spisaniya {
-	font-size: 16px;
+	font-size: 15px;
 	font-family: Regular;
 	color: #e51b1b;
 	/*margin-left: 215px;*/
@@ -252,7 +302,7 @@ body::-webkit-scrollbar {
 }
 
 .amount-popolneniya {
-	font-size: 16px;
+	font-size: 15px;
 	font-family: Regular;
 	color: #27a12f;
 	/*margin-left: 215px;*/
@@ -260,7 +310,7 @@ body::-webkit-scrollbar {
 }
 
 .datetime {
-	font-size: 14px;
+	font-size: 13px;
 	font-family: Regular;
 	color: #ebebeb;
 	margin: 0px;
