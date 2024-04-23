@@ -73,7 +73,7 @@ body::-webkit-scrollbar {
 	font-family: Bold;
 	color: #d4d4d4;
 	text-align: center;
-	margin-top: 13px;
+	margin-top: 17px;
 	margin-bottom: 0px;
 }
 
@@ -253,16 +253,19 @@ body::-webkit-scrollbar {
 	flex-direction: row;
 	width: 360px;
 	height: 50px;
+	/*
 	background-image: linear-gradient(rgba(112, 109, 109, 0.1), rgba(112, 109, 109, 0.1));
 	background-position: 100% 50%;
 	background-repeat: no-repeat;
 	background-size: 0% 100%;
   	transition: background-size .1s, color .1s;
+  	*/
 
 }
 
 .operation:active {
-	background-size: 100% 100%;
+	background-color: rgba(112, 109, 109, 0.1);
+	/*background-size: 100% 100%;*/
 }
 
 .spisanie-img, .popolnenie-img {
@@ -290,7 +293,6 @@ body::-webkit-scrollbar {
 	justify-content: center;
 	align-items: flex-end;
 	flex-direction: column;
-	margin-right: 13px;
 }
 
 .amount-spisaniya {
@@ -347,6 +349,7 @@ body::-webkit-scrollbar {
 	display: flex;
 	overflow-y: hidden;
 	overflow-x: auto;
+	padding-bottom: 2px;
 }
 
 .other-info-items:hover::-webkit-scrollbar {
