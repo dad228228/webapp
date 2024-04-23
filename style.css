@@ -60,7 +60,7 @@ body::-webkit-scrollbar {
 }
 
 .text {
-	font-size: 23px;
+	font-size: 21px;
 	font-family: Light;
 	color: #ebebeb;
 	text-align: center;
@@ -69,7 +69,7 @@ body::-webkit-scrollbar {
 }
 
 .balance {
-	font-size: 30px;
+	font-size: 28px;
 	font-family: Bold;
 	color: #d4d4d4;
 	text-align: center;
@@ -78,12 +78,12 @@ body::-webkit-scrollbar {
 }
 
 .number-card {
-	font-size: 23px;
+	font-size: 22px;
 	font-family: Medium;
 	color: #d4d4d4;
 	text-align: end;
-	margin-top: 10px;
-	margin-right: 11px;
+	margin-top: 12px;
+	margin-right: 13px;
 	margin-bottom: 5px;
 }
 
@@ -140,7 +140,7 @@ body::-webkit-scrollbar {
 }
 
 .referral-system-header, .promo-codes-header {
-	font-size: 18px;
+	font-size: 17px;
 	font-family: SemiBold;
 	color: #ebebeb;
 	width: 150px;
@@ -161,10 +161,10 @@ body::-webkit-scrollbar {
 }
 
 .referral-counter {
-	font-size: 27px;
+	font-size: 26px;
 	font-family: Medium;
 	color: #d4d4d4;
-	margin-top: 23px;
+	margin-top: 26px;
 	margin-left: 11px;
 	margin-bottom: 0px;
 }
@@ -185,7 +185,8 @@ body::-webkit-scrollbar {
 }
 
 .promo-code-activation-img {
-	padding-right: 10px;
+	padding-right: 9px;
+	padding-top: 2px;
 }
 
 .promo-code-activation-img img {
@@ -256,12 +257,11 @@ body::-webkit-scrollbar {
 	background-position: 100% 50%;
 	background-repeat: no-repeat;
 	background-size: 0% 100%;
-  	transition: background-size .5s, color .5s;
-	/*margin-top: 31px;*/
-	/*background-color: grey;*/
+  	transition: background-size .1s, color .1s;
+
 }
 
-.operation:hover {
+.operation:active {
 	background-size: 100% 100%;
 }
 
