@@ -1,40 +1,62 @@
 <!Doctype html>
 <html>
 <head>
+	<meta lang="en">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<title>ProfAvto Bonus</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="page-content">
-		<header>
+	<main class="page-content">
+		<div class="alert-section">
+			<div class="referral-link-copy-alert" id="alert">
+				<div class="yasno1">
+					<a class="closed-alert-img" href="#">
+						<img id="close-alert-btn" src="img/close.png">
+					</a>
+				</div>
+				<p class="text">Реферальная ссылка скопирована</p>
+				<p class="subtext-1">Отправьте ее другу для получения</p>
+				<p class="subtext-2">вознаграждения</p>
+				<div class="progress-bar" id="progress-bar"></div>
+			</div>
+
+			<div class="promo-code-activated-alert">
+			</div>
+
+		</div>
+
+		<header class="page-header">
 			<div class="header-content">
 				<p class="header-text1">Приветствую,</p>
 				<p class="header-text2">Владислав</p>
 			</div>
 		</header>
 
-		<article class="card-info-content">
-			<div class="card-info">
-				<div class="bg-setting-img">
-					<a class="setting-img" href="">
-						<img src="img/setting.png">
-					</a>
+		<section class="page-card-info">
+			<div class="card-info-section"> <!--card-info-->
+				<div class="card-info-content">
+					<div class="bg-setting-img">
+						<a class="setting-img" href="">
+							<img src="img/setting.png">
+						</a>
+					</div>
+					<p class="text">Баланс</p>
+					<p class="balance">10,000,<span style="font-size: 23px;">00</span> <span style="font-size: 26px; color: #f24822;">Б</span></p>
+				    <p class="number-card">№1232</p>
 				</div>
-				<p class="text">Баланс</p>
-				<p class="balance">10,000,<span style="font-size: 23px;">00</span> <span style="font-size: 26px; color: #f24822;">Б</span></p>
-			    <p class="number-card">№1232</p>
-		</article>
+			</div>
+		</section>
 
-		<section class="services-section">
-			<div class="referral-system">
+		<section class="page-services">
+			<div class="referral-system-section">
 				<div class="referral-system-content">
 					<p class="referral-system-header">Реферальная ссылка</p>
 					<div class="qwe"> <!--Переименовать -->
 						<p class="referral-counter">100</p>
 						<div class="bg-ref-link-img">
-							<a class="ref-link-img" href="">
+							<a class="ref-link-img" id="ref-link-btn" href="https://t.me/ProfAvtoBonus_bot?start=1256989650">
 								<img src="img/ref-link.png">
 							</a>
 						</div>
@@ -170,6 +192,8 @@
 			</div>
 		</div>
 
-	</div>
+	</main>
+	<script src="alert.js"></script>
+	<script src="copy.js"></script>
 </body>
 </html>
