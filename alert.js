@@ -1,5 +1,5 @@
 const refLinkBtn = document.getElementById('ref-link-btn');
-const closeBtn = document.getElementById('close-alert-btn')
+const closeBtn = document.getElementById('close-alert-btn');
 const alertElement = document.getElementById('alert');
 const progressBar = document.getElementById('progress-bar');
 let timer;
