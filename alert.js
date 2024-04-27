@@ -23,7 +23,6 @@ function hideAlert() {
 
 function showAlert() {
 	event.preventDefault(); // Предотвращаем действие по умолчанию (переход по ссылке)
-
 	if (timer) {
 		clearTimeout(timer);
 		progressBar.classList.remove('start-anim');
@@ -38,6 +37,7 @@ function showAlert() {
 
 
 function closeAlertBtn() {
+	event.preventDefault();
 	hideAlert();
 }
 
