@@ -299,19 +299,19 @@ body::-webkit-scrollbar {
 	flex-direction: row;
 	width: 375px;
 	height: 50px;
+	/*
 	overflow: hidden;
 	position: relative;
 	transition: background .25s;
-	/*
 	background-image: linear-gradient(rgba(112, 109, 109, 0.1), rgba(112, 109, 109, 0.1));
 	background-position: 100% 50%;
 	background-repeat: no-repeat;
 	background-size: 0% 100%;
   	transition: background-size .2s, color .2s;
   	*/
-
 }
 
+/*
 .wave {
 	width: 375px;
 	height: 50px;
@@ -328,12 +328,12 @@ body::-webkit-scrollbar {
 		opacity: 0;
 	}
 }
-
-/*
-.operation:active {
-	background-size: 100% 100%;
-}
 */
+
+.operation:active {
+	background: rgba(112, 109, 109, 0.1);
+	/*background-size: 100% 100%;*/
+}
 
 .spisanie-img, .popolnenie-img {
 	width: 47px;
