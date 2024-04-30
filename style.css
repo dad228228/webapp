@@ -18,13 +18,15 @@ body::-webkit-scrollbar {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	max-width: 400px;
+	width: 100%;
+	/*max-width: 400px;*/
 }
 
 .page-header {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	width: 100%;
 }
 
 .header-text1 {
@@ -49,12 +51,15 @@ body::-webkit-scrollbar {
 	display: flex;
 	justify-content: center;
 	margin-top: 30px;
+	width: 100%;
 }
 
 .card-info-section { /*card-info-content*/
 	display: flex;
 	flex-direction: column;
-	width: 375px;
+	/*width: 375px;*/
+	width: 100%;
+	min-width: 285px;
 	height: 130px;
 	border-radius: 20px;
 	background-color: #27272b;
@@ -118,6 +123,7 @@ body::-webkit-scrollbar {
 	display: flex;
 	justify-content: center;
 	margin-top: 10px;
+	width: 100%;
 }
 
 .delimiter {
@@ -156,10 +162,14 @@ body::-webkit-scrollbar {
 
 .referral-system-section {
 	margin-right: 15px;
+	width: 100%;
+	min-width: 135px;
 	/*margin-right: 5px;*/
 }
 
 .promo-codes {
+	width: 100%;
+	min-width: 135px;
 	/*margin-left: 10px;*/
 }
 
@@ -241,12 +251,15 @@ body::-webkit-scrollbar {
 .history-operations-section {
 	display: flex;
 	justify-content: center;
+	width: 100%;
 }
 
 .history-operations-content {
 	display: flex;
 	flex-direction: column;
-	width: 375px;
+	/*width: 375px;*/
+	width: 100%;
+	min-width: 285px;
 	min-height: 94px;
 	max-height: 270px;
 	border-top-left-radius: 20px;
@@ -271,6 +284,7 @@ body::-webkit-scrollbar {
 	flex-direction: column;
 	overflow-y: auto;
   	overflow-x: hidden;
+  	width: 100%;
 	margin-top: 5px;
 	/*min-height: 60px;*/
 	/*max-height: 218px;*/
@@ -297,7 +311,8 @@ body::-webkit-scrollbar {
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: row;
-	width: 375px;
+	/*width: 375px;*/
+	width: 100%;
 	height: 50px;
 	/*
 	overflow: hidden;
@@ -399,12 +414,15 @@ body::-webkit-scrollbar {
 .other-info-section {
 	display: flex;
 	justify-content: center;
+	width: 100%;
 }
 
 .other-info-content {
 	display: flex;
 	flex-direction: column;
-	width: 393px;
+	/*width: 393px;*/
+	width: 100%;
+	min-width: 202px;
 	height: 150px;
 	background-color: #27272b;
 	filter: drop-shadow(0px 4px 6px #000000);
